@@ -1,0 +1,53 @@
+.container {
+  max-width: 960px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.title {
+  color: $color-gray-1;
+  font-weight: 500;
+
+  &--xl {
+    @extend .title;
+    font-size: clamp(5rem, 8vw, 7.4rem);
+    font-weight: 700;
+  }
+
+  &--l {
+    @extend .title;
+    font-size: clamp(2rem, 8vw, 6.2rem);
+  }
+
+  &--m {
+    @extend .title;
+    font-size: clamp(3rem, 8vw, 4.4rem);
+  }
+
+  &--s {
+    @extend .title;
+    font-size: clamp(2rem, 8vw, 2.4rem);
+  }
+}
+
+.text {
+  color: $color-gray-2;
+  font-size: 1.6rem;
+}
+
+.small-text {
+  color: $color-gray-3;
+  font-size: 1.3rem;
+}
+
+.href {
+  color: $color-prim;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.highlighted {
+  background: $color-gray-1;
+  color: $color-prim;
+}

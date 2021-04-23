@@ -1,11 +1,10 @@
 ---
-title: First blog
-excerpt: This blog explores this and that and such things so yeah you know.
-date: '2021-04-18'
+title: An actual cool blog
+excerpt: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+date: '2021-04-20'
 tags:
-  - Development
-  - Web
-  - JavaScript
+  - Philosophy
+  - Type and Script
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
