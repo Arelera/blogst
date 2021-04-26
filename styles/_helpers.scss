@@ -16,7 +16,7 @@
 
   &--l {
     @extend .title;
-    font-size: clamp(2rem, 8vw, 6.2rem);
+    font-size: clamp(2rem, 8vw, 5.8rem);
   }
 
   &--m {
@@ -41,7 +41,7 @@
 }
 
 .href {
-  color: $color-prim;
+  color: $color-prim-dark;
   &:hover {
     text-decoration: underline;
   }

@@ -5,12 +5,16 @@ import Hero from '../components/Hero'
 
 export default function Home({ blogs }) {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Blogst</title>
+        <meta
+          name="description"
+          content="A simple blog site made with Next.js"
+        />
       </Head>
       <Hero />
-      <BlogFeedList blogs={blogs} />
+      <BlogFeedList title="Blogs" blogs={blogs} />
     </div>
   )
 }

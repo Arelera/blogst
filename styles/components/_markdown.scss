@@ -1,0 +1,32 @@
+.markdown {
+  @extend .text;
+}
+
+.md-a {
+  @extend .href;
+}
+
+.md-h2,
+.md-h3 {
+  @extend .title;
+  padding-top: 1.6rem;
+}
+
+.md-h2 {
+  @extend .title--m;
+  padding-bottom: 1rem;
+}
+
+.md-h3 {
+  @extend .title--s;
+  padding-bottom: 0.6rem;
+}
+
+.md-li {
+  list-style: inside disc;
+}
+
+.md-p,
+.md-li {
+  line-height: 1.5;
+}

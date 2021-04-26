@@ -3,7 +3,11 @@ export default function Footer() {
     <footer className="footer">
       <span className="title--s">
         Made by{' '}
-        <a className="highlighted" href="https://github.com/Arelera">
+        <a
+          className="highlighted"
+          href="https://github.com/Arelera"
+          target="_blank"
+        >
           Arel
         </a>
       </span>

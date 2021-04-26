@@ -1,0 +1,42 @@
+.blog {
+  padding-bottom: 2rem;
+  &__header {
+    padding-top: 6rem;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem 0 2rem;
+    margin-top: 1rem;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -0.3rem;
+      width: 30%;
+      height: 3px;
+      background: $color-prim;
+    }
+  }
+  &__tag:hover {
+    text-decoration: underline;
+  }
+  &__date {
+    display: block;
+    padding-bottom: 0.6rem;
+  }
+  &__back-link {
+    display: inline-block;
+    margin-top: 2rem;
+  }
+  &__body {
+    margin: 0 auto;
+    width: min(100%, 700px);
+  }
+}
